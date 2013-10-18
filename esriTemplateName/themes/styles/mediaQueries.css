@@ -1,0 +1,120 @@
+﻿/* Portrait */
+
+@media screen and (max-width: 320px)
+{
+    html, body
+    {
+        font-size: 11px !important;
+    }
+
+    .esriCTAddressHolder
+    {
+        top: 50px !important;
+        width: 100% !important;
+    }
+
+    .esriCTTdHeaderSearch, .esriCTTdHeaderSearch-select, .esriCTTdGeolocation, .esriCTImgSocialMedia-select, .esriCTImgSocialMedia, .esriCTHelpImg
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 64% !important;
+        width: 25% !important;
+        padding: 8px 0 !important;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 580px)
+{
+    html, body
+    {
+        font-size: 11px !important;
+    }
+
+    .esriCTApplicationHeaderTextTD
+    {
+        display: none;
+    }
+
+    .esriCTApplicationHeaderIcon
+    {
+        display: none;
+    }
+    
+    .esriCTTdHeaderSearch, .esriCTTdHeaderSearch-select, .esriCTTdGeolocation, .esriCTImgSocialMedia-select, .esriCTImgSocialMedia, .esriCTHelpImg
+    {
+        height: 44px !important;
+        width: 44px !important;
+        background-size: 40% !important;
+        width: 25% !important;
+        padding: 8px 0 !important;
+    }
+    
+    .esriCTRightTab
+    {
+        width: 100%;
+    }
+    
+    .esriCTApplicationHeader
+    {
+        height: 60px;
+    }
+    
+    .esriCTDivAppContainer
+    {
+        top: 60px !important;
+    }
+
+    /* Address container */
+
+    .esriCTAddressHolder
+    {
+        z-index: 1000;
+        position: absolute;
+        top: 65px;
+        right: 0px;
+        top: 60px !important;
+        width: 100% !important;
+    }
+
+    .esriCTAddressContent
+    {
+        height: 300px;
+        border-right: 1px solid #007ac2;
+        border-left: 1px solid #007ac2;
+        border-bottom: 1px solid #007ac2;
+    }
+
+    .esriCTAddressPlaceHolder
+    {
+        height: 44px;
+    }
+
+    .esriCTBottomBorder
+    {
+        height: 40px;
+    }
+
+    .esriCTTxtAddress
+    {
+        padding: 0px !important;
+        padding: 6px 25px !important;
+    }
+
+    .esriCTSearchClose
+    {
+        right: 38px !important;
+        top: -37px !important;
+    }
+
+    .esriCTSearchByAddress, .esriCTSearchByUnSelectedFeature, .esriCTSearchByUnSelectedActivity, .esriCTSearchByUnSelectedAddress, .esriCTSearchByFeature, .esriCTSearchByActivity
+    {
+        padding: 0 0px;
+    }
+
+    .esriCTAddressPlaceHolder
+    {
+        margin-left: 2px;
+    }
+    /* End of Address container Styles */
+}
+
